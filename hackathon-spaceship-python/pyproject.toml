@@ -2,7 +2,7 @@
 name = "hackathon-spaceship-python"
 version = "0.1.0"
 description = ""
-authors = ["VikaskumarPatel1595 <vikaskumar.patel1@ah.nl>"]
+authors = ["VikaskumarPatel1595 <vikaskumar.patel1@ah.nl>","vikas1595 <vikasptl07@gmail.com>"]
 readme = "README.md"
 packages = [{include = "hackathon_spaceship_python"}]
 
