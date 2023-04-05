@@ -19,11 +19,12 @@ jobs:
     env:
       working-directory: ./hackathon-spaceship-python/hackathon-spaceship-python/
     steps:
-    - uses: actions/checkout@main
+    - uses: actions/checkout@v3
     - name: Experiment
       run: |
         pwd
         ls -r
+        find pyproject.toml
     - name: Set up Python 3.8
       uses: actions/setup-python@v3
       with:
