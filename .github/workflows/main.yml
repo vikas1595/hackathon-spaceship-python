@@ -19,11 +19,11 @@ jobs:
     env:
       working-directory: ./hackathon-spaceship-python/hackathon-spaceship-python/
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@main
     - name: Experiment
       run: |
         pwd
-        ls
+        ls -r
     - name: Set up Python 3.8
       uses: actions/setup-python@v3
       with:
