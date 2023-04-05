@@ -48,7 +48,6 @@ jobs:
       working-directory: ${{env.working-directory}}
     - name: Run tests
       run: |
-          source .venv/bin/activate
           pwd
           ls -R
           pytest tests/
