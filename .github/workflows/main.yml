@@ -54,6 +54,4 @@ jobs:
     - name: Run tests
       working-directory: ${{env.working-directory}}
       run: |
-          pwd
-          ls -R
-          python -m poetry run python -m pytest
+        pytest
