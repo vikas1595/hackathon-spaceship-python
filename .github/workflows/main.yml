@@ -17,7 +17,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      working-directory: ./hackathon-spaceship-python/hackathon-spaceship-python/hackathon-spaceship-python/
+      working-directory: hackathon-spaceship-python/
     steps:
     - uses: actions/checkout@v3
     - name: Experiment
