@@ -24,6 +24,7 @@ jobs:
       run: |
         pwd
         ls -R
+        cd ./hackathon-spaceship-python/
         
     - name: Set up Python 3.8
       uses: actions/setup-python@v3
